@@ -110,6 +110,10 @@ article div p {
 #hero-article-image-mid {
   display: none;
 }
+#hero-article-image-sm{
+    display: none;
+    z-index: -1;
+}
 /* absolute article  */
 #absolute-article {
   background-image: -webkit-linear-gradient( #3bbfb5, #254aa0);
@@ -126,6 +130,17 @@ article div p {
   font-size: 16px;
   line-height: 24px;
   padding: 0px 375px 102px 220px;
+}
+/* bg image  */
+#ring1-image{
+    position: absolute;
+    top: 1140px;
+    right: 8    px;
+    width: 800px;
+    z-index: -1;
+}
+#solution{
+   margin: 67px 662px 0 552px;
 }
 @media screen and (max-width: 1398px) {
   /* hero article image  */
@@ -192,12 +207,6 @@ article div p {
   #hero-content {
     width: 450px;
     margin: 100px 50px;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 120%;
-
-    /* or 38px */
-    letter-spacing: -0.02em;
   }
   #hero-article-image-mid {
     display: flex;
@@ -208,29 +217,10 @@ article div p {
   }
 }
 @media screen and (max-width: 850px) {
-  /* dropdown */
-  ul {
-    display: none;
-  }
-
-  /* get in touch  */
-  #get-in-touch {
-    background-color: #254aa0;
-    color: #fff;
-  }
-
-  #toggle {
-    display: block;
-  }
-
-  #toggle > * {
-    padding: 2px;
-    display: block;
-  }
 
   /* hero  */
   #hero-content {
-    width: 300px;
+    width: 310px;
     margin: 100px 50px;
   }
   #hero-content-h1 {
@@ -240,10 +230,17 @@ article div p {
     display: flex;
     color: #071d49;
   }
+  /* absolute article  */
+  #absolute-article{
+    margin-top: 190px;
+  }
 }
 @media screen and (max-width: 710px) {
   #hero-article-image-mid {
-    width: 300px;
+    width: 310px;
+  }
+  #absolute-article {
+    border-radius: 0 110px 0 110px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -265,31 +262,31 @@ article div p {
   }
 
   #hero-article-image-mid {
+    display: none;
+  }
+  #hero-article-image-sm{
     display: flex;
-    top: 650px;
-    width: 600px;
+    position: absolute;
+    /* right: 0; */
+    left: 1;
+    top: 620px;
+    width: 640px;
   }
   /* absolute article  */
   #absolute-article {
-    margin-top: 650px;
+    margin-top: 750px;
+    border-radius: 0 110px 0 110px;
+  }
+  #absolute-article h2 {
+    padding: 90px 95px 24px 120px;
   }
 }
 @media screen and (max-width: 550px) {
-  /* get in touch  */
-  #get-in-touch {
-    display: none;
-  }
-
+  
   /* hero  */
   #hero-content {
     width: 400px;
     margin: 100px 20px;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 120%;
-
-    /* or 38px */
-    letter-spacing: -0.04em;
   }
 
   #hero-content-h1 {
@@ -298,15 +295,25 @@ article div p {
 
   #hero-content-h5 {
     display: flex;
-    color: #071d49;
   }
 
-  #hero-article-image-mid {
+  #hero-article-image-sm{
     display: flex;
     position: absolute;
     right: 0;
-    top: 550px;
-    width: 450px;
+    left: 1;
+    top: 400px;
+    width: 550px;
+  }
+  /* absolute artyicle  */
+  #absolute-article {
+    border-radius: 0 90px 0 90px;
+  }
+  #absolute-article h2 {
+    padding: 90px 50px 24px 50px;
+  }
+  #absolute-article p {
+    padding: 0px 50px 102px 50px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -317,18 +324,16 @@ article div p {
   #hero-content {
     width: 350px;
     margin: 100px 20px;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 120%;
-
-    /* or 38px */
-    letter-spacing: -0.04em;
   }
-  #hero-article-image-mid {
-    top: 500px;
-    width: 430px;
+  #hero-article-image-sm {
+    top: 400px;
+    width: 400px;
   }
   /* absolute artyicle  */
+   #absolute-article {
+    margin-top: 800px;
+    /* border-radius: 0 90px 0 90px; */
+  }
   #absolute-article h2 {
     padding: 110px 95px 24px 60px;
   }
@@ -341,18 +346,12 @@ article div p {
   #hero-content {
     width: 300px;
     margin: 100px 20px;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 120%;
-
-    /* or 38px */
-    letter-spacing: -0.04em;
   }
-  #hero-article-image-mid {
+  #hero-article-image-sm {
     display: flex;
     position: absolute;
     right: 0;
-    top: 650px;
-    width: 300px;
+    top: 430px;
+    width: 350px;
   }
 }
