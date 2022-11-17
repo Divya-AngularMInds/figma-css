@@ -62,6 +62,10 @@ ul li:hover ul.dropdown{
     padding: 13px 16px;
     margin: 12px 24px 0 28.51px;
  }
+ #toggle{
+    display: none;
+ }
+ 
 /* hero  */
 #hero-content {
     width: 580px;
@@ -92,6 +96,27 @@ article div p{
         color: #FFF;
 
 }
+#hero-article-image {
+    position: absolute;
+    right: 0;
+    top: 96px;
+}
+
+@media screen and (max-width: 1398px){
+    /* hero article image  */
+    #hero-article-image{
+        display: none;
+    }
+    #hero-article-image-mid{
+        position: absolute;
+            right: 0;
+            top: 96px;
+    }
+        #hero-content {
+            width: 580px;
+            margin: 150px 100px;
+        }
+}
  @media screen and (max-width: 1066px){
     /* dropdown */
     ul{
@@ -102,10 +127,14 @@ article div p{
         background-color: #254AA0;
         color: #FFF;
     }
+        #toggle {
+            display: block;
+        }
     #toggle > *{
         padding: 2px;
         display: block;
     }
+    
  }
 
  @media screen and (max-width: 650px) {
