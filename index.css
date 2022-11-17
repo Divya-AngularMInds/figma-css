@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* Navbar */
+/* logo  */
+#logo{
+    padding: 15px 45px 14px 31px;
+}
+/* dropdown */
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 25px 25px;
+    color: #071D49;
+    text-decoration: none;
+    text-align: center;
+        height: 14px;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    display: none;
+    background-color: #FFF;
+}
+ul li a:hover{
+    background: #FFF;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ /* search */
+ #search-btn{
+    padding: 23px;
+    height: 17.49px;
+    width: 17.49px;
+ }
+
+ /* get in touch */
+ #get-in-touch{
+    background-color: #C5DEF4;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 13px 16px;
+    margin: 12px 24px 0 28.51px;
+ }
+/* hero  */
+#hero-content {
+    width: 580px;
+    margin: 200px 100px;
+}
+article div h1{
+    font-weight: 800;
+        font-size: 48px;
+        line-height: 120%;
+        color: #071D49;
+}
+article div p{
+    margin-top: 25px;
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+}
+#learnmore{
+    border-radius: 4px;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        padding: 13px 16px;
+        margin: 12px 24px 0 0;
+        background-color: #254AA0;
+        color: #FFF;
+
+}
+ @media screen and (max-width: 1066px){
+    /* dropdown */
+    ul{
+        display: none;
+    }
+    /* get in touch  */
+    #get-in-touch{
+        background-color: #254AA0;
+        color: #FFF;
+    }
+    #toggle > *{
+        padding: 2px;
+        display: block;
+    }
+ }
+
+ @media screen and (max-width: 650px) {
+
+     /* get in touch  */
+     #get-in-touch {
+         display: none;
+     }
+
+ }
+
+  @media screen and (max-width: 380px) {
+
+     #logo{
+        padding-left: 10px;
+     }
+  }
