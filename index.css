@@ -324,6 +324,64 @@ color: #071d49;
    text-align:center;
    align-items:center;
 }
+#therapeutic{
+  display: flex;
+  backdrop-filter: blur(2px);
+  width: fit-content;
+  /* margin-left: 30%; */
+}
+#therapeutic-mid{
+  display: none;
+}
+#therapeutic div{
+  margin-left: 40px;
+  padding-right: 10px;
+}
+#therapeutic p{
+  font-weight: 400;
+font-size: 18px;
+line-height: 160.9%;
+}
+#therapeutic-container{
+  width: 70%;
+   margin-left: 5%;
+   margin-top: 10%;
+}
+#therapeutic-image{
+  display: flex;
+}
+#therapeutic-image-sm{
+  display: none;
+}
+#certified{
+  margin-top: 115px;
+}
+#certified-h2{
+  color: #071d49;
+font-weight: 800;
+font-size: 32px;
+line-height: 141.9%;
+}
+#certified-p{
+  margin-top: 32px;
+  width: 774px;
+  font-weight: 400;
+font-size: 18px;
+line-height: 160.9%;
+  text-align: center;
+}
+#certified-image{
+  display: flex; 
+  margin-left: 12px;
+  align-items: center;
+   justify-content: space-evenly;
+
+   z-index: -2;
+}
+#certified-image img{
+  margin-top: -20%;
+  margin-left: 12px;
+}
 @media screen and (max-width: 1398px) {
  
   #hero-article-image-mid {
@@ -378,6 +436,28 @@ color: #071d49;
   #bg-down-image{
   top: 1300px;
   right: -200px;
+}
+}
+@media screen and (max-width: 1204px) {
+  #therapeutic-mid{
+  display: flex;
+  backdrop-filter: blur(2px);
+  width: fit-content;
+  margin-top: 12px;
+}
+#therapeutic-mid p{
+ font-weight: 400;
+font-size: 18px;
+line-height: 160.9%;
+}
+#therapeutic-container{
+margin-top: 2%;
+}
+#therapeutic-mid div{
+ margin-left: 52px;
+}
+#therapeutic{
+  display: none;
 }
 }
 @media screen and (max-width: 1188px) {
@@ -498,6 +578,9 @@ width: 100%;
 #purple-image-mid{
   display: flex;
 }
+#therapeutic-mid div{
+ margin-left: 2px;
+}
 }
 @media screen and (max-width: 710px) {
   #hero-article-image-mid {
@@ -580,7 +663,17 @@ display: none;
 #scroll{
   display: none;
 }
-
+#scroll-article-1{
+  border-radius: 150px 0 120px 0;
+}
+#therapeutic-image{
+  display: none;
+}
+#therapeutic-image-sm{
+  display: flex;
+  z-index: -1;
+  margin-top: -18%;
+}
 }
 @media screen and (max-width: 550px) {
   /* hero  */
@@ -683,6 +776,9 @@ color: #071d49;
   #checklist-sm{
     display: flex;
   }
+  #scroll-article-1{
+  border-radius: 150px 0 80px 0;
+}
   #scroll-h4{
     width: 300px;
   }
