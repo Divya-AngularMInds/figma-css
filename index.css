@@ -268,6 +268,62 @@ line-height: 160.9%;
   margin-left: 2%; 
   margin-top: 131px;
 }
+#scroll-article-1{
+  display: flex; 
+  flex-direction: column;
+  background-image: -webkit-linear-gradient(#E2EFFA,#DCF3F0,#DCF3F0);
+  overflow-x: scroll;
+  border-radius: 150px 0 150px 0;
+  margin-top: 86px;
+}
+
+.font{
+  font-weight: 800;
+font-size: 80px;
+line-height: 100%;
+color: #fff;
+text-shadow: 1px 1px #000;
+}
+#scroll-article p{
+  color: #071d49;
+  font-weight: 600;
+font-size: 18px;
+line-height: 150.9%;
+}
+#scroll-sm{
+  display: none;
+}
+#scroll{
+  display: flex;
+   flex-wrap: nowrap;
+   overflow: scroll;
+   justify-content: space-evenly;
+   width: 100%;
+   margin-top: 75px;
+}
+#scroll-start{
+  width: 285px; padding-left: 100px;
+}
+#scroll-h2{
+  font-weight: 700;
+font-size: 40px;
+line-height: 125%;
+color: #071d49;
+}
+#scroll-h4{
+  display: none;
+}
+#scroll-top{
+  display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 105px 138px 75px 138px;
+}
+#scroll-top-2{
+  display: flex;
+   text-align:center;
+   align-items:center;
+}
 @media screen and (max-width: 1398px) {
  
   #hero-article-image-mid {
@@ -389,6 +445,9 @@ line-height: 160.9%;
 #bg-down-image{
   top: 1500px;
 }
+#scroll-start{
+  padding-left: 400px;
+}
 }
 @media screen and (max-width: 850px) {
   /* hero  */
@@ -417,6 +476,14 @@ line-height: 160.9%;
 #solution-content p {
   margin-left: 50px;
   width: 300px;
+}
+#solution-content-image{
+  background-size: cover;
+  border-radius: 0 0 150px 0;
+}
+#solution-content-image img{
+height: 100%;
+width: 100%;
 }
 #bg-down-image{
   top: 1500px;
@@ -504,6 +571,16 @@ line-height: 160.9%;
 #bg-down-image{
 display: none;
 }
+/* numbers article  */
+#scroll-sm{
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 75px;
+}
+#scroll{
+  display: none;
+}
+
 }
 @media screen and (max-width: 550px) {
   /* hero  */
@@ -552,6 +629,28 @@ display: none;
 #checklist-container{
   margin-top: 50px;
 }
+#scroll-h2{
+  display: none;
+}
+#scroll-h4{
+  display: flex;
+  font-weight: 700;
+font-size: 40px;
+line-height: 125%;
+color: #071d49;
+}
+#scroll-top{
+  flex-direction: column;
+  align-items: flex-start;
+   text-align: start;
+   padding: 105px 138px 75px 30px;
+}
+#scroll-top-2{
+  flex-direction: column;
+  align-items: flex-start;
+   text-align: start;
+   
+}
 }
 @media screen and (max-width: 450px) {
   #logo {
@@ -584,6 +683,13 @@ display: none;
   #checklist-sm{
     display: flex;
   }
+  #scroll-h4{
+    width: 300px;
+  }
+  #scroll-top{
+  padding-left: 80px;
+}
+
 }
 @media screen and (max-width: 370px) {
   /* hero  */
