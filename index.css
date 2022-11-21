@@ -353,16 +353,16 @@ line-height: 160.9%;
 #therapeutic-image-sm{
   display: none;
 }
-#certified{
+.certified{
   margin-top: 115px;
 }
-#certified-h2{
+.certified-h2{
   color: #071d49;
 font-weight: 800;
 font-size: 32px;
 line-height: 141.9%;
 }
-#certified-p{
+.certified-p{
   margin-top: 32px;
   width: 774px;
   font-weight: 400;
@@ -370,7 +370,7 @@ font-size: 18px;
 line-height: 160.9%;
   text-align: center;
 }
-#certified-image{
+.certified-image{
   display: flex; 
   margin-left: 12px;
   align-items: center;
@@ -378,7 +378,37 @@ line-height: 160.9%;
 
    z-index: -2;
 }
-#certified-image img{
+.certified-image img{
+  margin-top: -20%;
+  margin-left: 12px;
+}
+.certified-2{
+  margin-top: 115px;
+}
+.certified-2-h2{
+  color: #071d49;
+font-weight: 800;
+font-size: 32px;
+line-height: 141.9%;
+}
+.certified-2-p{
+  margin-top: 32px;
+  width: 543px;
+  font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: #071d49;
+  text-align: center;
+}
+.certified-2-image{
+  display: flex; 
+  margin-left: 12px;
+  align-items: center;
+   justify-content: space-evenly;
+
+   z-index: -2;
+}
+.certified-image img{
   margin-top: -20%;
   margin-left: 12px;
 }
