@@ -473,84 +473,84 @@ li {
   border-radius: 200px 0 0 0;
   width: 1216px;
 }
-#news-article-content-event{
+#news-article-content-event {
   font-weight: 600;
-font-size: 16px;
-line-height: 150%;
-margin-left: 8px;
-color: #071d49;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 8px;
+  color: #071d49;
 }
-#news-article-content-p{
+#news-article-content-p {
   font-weight: 600;
-font-size: 16px;
-line-height: 150%;
-color: #071d49;
-width: 512px;
-padding-top: 18px;
-padding-left: 48px;
-padding-bottom: 18px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #071d49;
+  width: 512px;
+  padding-top: 18px;
+  padding-left: 48px;
+  padding-bottom: 18px;
 }
-#news-article-content-a{
+#news-article-content-a {
   font-weight: 600;
   margin-top: 18px;
-font-size: 14px;
-line-height: 100%;  
-color: #071d49;
-padding-left: 48px;
+  font-size: 14px;
+  line-height: 100%;
+  color: #071d49;
+  padding-left: 48px;
 }
-#news-stories{
+#news-stories {
   width: 1216px;
   margin-top: 32px;
   display: flex;
   justify-content: space-between;
 }
-#news-stories img{
+#news-stories img {
   width: 100%;
 }
-#news-st-1-h6{
+#news-st-1-h6 {
   font-weight: 700;
-font-size: 24px;
-line-height: 150%;
-width: 347px;
-color: #071d49;
-margin-top: 16px;
+  font-size: 24px;
+  line-height: 150%;
+  width: 347px;
+  color: #071d49;
+  margin-top: 16px;
 }
-#news-st-1-p{
-font-weight: 600;
-font-size: 15px;
-line-height: 150%;
-width: 347px;
-color: #071d49;
+#news-st-1-p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 150%;
+  width: 347px;
+  color: #071d49;
 }
-#news-st-2-h6{
+#news-st-2-h6 {
   font-weight: 700;
-font-size: 24px;
-line-height: 150%;
-width: 384px;
-color: #071d49;
-margin-top: 16px;
+  font-size: 24px;
+  line-height: 150%;
+  width: 384px;
+  color: #071d49;
+  margin-top: 16px;
 }
-#news-st-2-p{
-font-weight: 600;
-font-size: 14px;
-line-height: 150%;
-width: 347px;
-color: #071d49;
+#news-st-2-p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  width: 347px;
+  color: #071d49;
 }
-#news-st-3-h6{
+#news-st-3-h6 {
   font-weight: 700;
-font-size: 25px;
-line-height: 150%;
-width: 384px;
-color: #071d49;
-margin-top: 16px;
+  font-size: 25px;
+  line-height: 150%;
+  width: 384px;
+  color: #071d49;
+  margin-top: 16px;
 }
-#news-st-3-p{
-font-weight: 600;
-font-size: 15px;
-line-height: 150%;
-width: 347px;
-color: #071d49;
+#news-st-3-p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 150%;
+  width: 347px;
+  color: #071d49;
 }
 @media screen and (max-width: 1398px) {
   #hero-article-image-mid {
@@ -628,25 +628,67 @@ color: #071d49;
   #therapeutic {
     display: none;
   }
-  #news-stories{
+  #news-stories {
     display: flex;
     flex-direction: column;
     width: auto;
   }
-  #news-st-1,#news-st-2,#news-st-3{
+  #news-st-1,
+  #news-st-2,
+  #news-st-3 {
     display: flex;
+    margin-top: 24px;
   }
   #news-article-1 {
-  width: auto;
-}
+    width: auto;
+  }
 
-#news-article-1-image img{
-  width: 320px;
-}
-#news-article-content-p{
-
-width: 347px;
-}
+  #news-article-1-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #news-article-1-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #news-article-content-p {
+    width: 347px;
+  }
+  #news-st-1-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #news-st-1-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80px 0 0 0;
+  }
+   #news-st-2-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #news-st-2-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80px 0 0 0;
+  }
+   #news-st-3-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #news-st-3-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80px 0 0 0;
+  }
 }
 @media screen and (max-width: 1188px) {
   /* solution article  */
@@ -778,6 +820,24 @@ width: 347px;
     /* flex-direction: column; */
     width: 70%;
   }
+  #news-article-top-h1 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  width: 385px;
+  color: #071d49;
+  padding: 28px 48px 2px 48px;
+}
+#news-article-top-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  width: 651px;
+  color: #666666;
+  padding: 0 0 28px 48px;
+}
 }
 @media screen and (max-width: 710px) {
   #hero-article-image-mid {
@@ -791,6 +851,28 @@ width: 347px;
     justify-content: space-around;
     align-items: center;
   }
+  #news-st-1,
+  #news-st-2,
+  #news-st-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  #news-st-2-image img {
+    border-radius: 0 0 0 0;
+  }
+   #news-article-1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  #news-article-top-h1 {
+  padding: 28px 48px 2px 98px;
+}
+#news-article-top-p {
+  width: 500px;
+  padding: 0 0 28px 98px;
+}
 }
 @media screen and (max-width: 670px) {
   /* get in touch  */
@@ -893,6 +975,14 @@ width: 347px;
     font-size: 20px;
     line-height: 125%;
   }
+  #news-article-top-h1 {
+  width: 313px;
+  padding: 28px 48px 2px 48px;
+}
+#news-article-top-p {
+  width: fit-content;
+  padding: 0 0 28px 48px;
+}
 }
 @media screen and (max-width: 550px) {
   /* hero  */
@@ -1002,6 +1092,14 @@ width: 347px;
   #scroll-top {
     padding-left: 80px;
   }
+  #news-article-top-h1 {
+  width: 313px;
+  padding: 28px 48px 2px 10px;
+}
+#news-article-top-p {
+  width: fit-content;
+  padding: 0 0 28px 10px;
+}
 }
 @media screen and (max-width: 370px) {
   /* hero  */
@@ -1022,5 +1120,28 @@ width: 347px;
   }
   #absolute-article p {
     padding: 0px 50px 60px 60px;
+  }
+  #news-article-1 {
+    width: 300px;
+  }
+  #news-article-content-p {
+    width: 250px;
+  }
+  #news-st-1,
+  #news-st-2,
+  #news-st-3 {
+    width: 300px;
+  }
+  #news-st-1-h6,
+  #news-st-2-h6,
+  #news-st-3-h6 {
+    font-size: 20px;
+    width: 300px;
+  }
+  #news-st-1-p,
+  #news-st-2-p,
+  #news-st-3-p {
+    font-size: 12px;
+    width: 250px;
   }
 }
