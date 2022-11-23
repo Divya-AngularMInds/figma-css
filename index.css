@@ -693,6 +693,12 @@ margin-top: 1%;
 #therapeutic-see{
   display: none;
 }
+#bg-news-image-1{
+  position: absolute;
+  top: 5400px;
+  left: -550px;
+  z-index: -2;
+}
 @media screen and (max-width: 1398px) {
   #hero-article-image-mid {
     position: absolute;
@@ -760,6 +766,10 @@ margin-top: 1%;
     padding-top: 24px;
     background-image: -webkit-linear-gradient(360deg, #3bbfb5, #99cc33);
   }
+  #bg-news-image-1{
+  top: 5200px;
+  left: -550px;
+}
 }
 @media screen and (max-width: 1209px) {
   nav ul li a {
